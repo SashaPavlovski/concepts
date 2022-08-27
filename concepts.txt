@@ -1,0 +1,36 @@
+Dos commands
+1. date - לעדכן תאריך
+2. time - לעדכן שעון
+3. dir - רשימה של כל הקבצים שנמצאים בתיקייה שאנחנו נמצאים בה.
+4. cls - לנקות מסך פקודות.
+5. cd.. - לחזור תיקייה אחת אחורה.
+6. cd + name of directory - להיכנס לתיקייה (שנמצאות בתוך התיקייה הנוכחית).
+7. md + name of directory - יצירת תיקייה.
+8. cd\ - לצאת מכל הספריות.
+9. cd\+ name of directory - מקפיץ אותי ישר לסיפריה.
+10. tree - מראה לי את התיקיות בצורת תרשים.
+11. name of command + /? - מסביר על הפקודה והאפשרויות שלה.
+12. help + name of the command - מסביר על הפקודה והאפשרויות שלה.
+13. rmdir /s + name of directory - למחוק את התיקייה ומה שבתוכה.
+
+Working with files
+14. dir >file name.file type  - יצירת קובץ בספריה.
+15. copy + file name+c:\directory - מעתיק את הקובץ לתיקייה.
+16. copy + file name+c:\directory\new file name.file type - מעתיק את הקובת לתיקייה ומשנה לה שם.
+17. del + file name.file type - מוחק את הקובץ
+18. move + file name.file type + c:\directory\o - מעביר את הקובץ תיקייה אחורה.
+19. type + file name.file type - מציג את תכולת הקובץ.
+20. attrib +R+ file name.file type - הקובץ במצב קריאה בלבד
+21. attrib -R+ file name.file type - ביטול מצב קריאה בלבד.
+22. attrib +h+ file name.file type - הקובץ במצב סמוי.
+23. attrib +/AH - בודק אם יש תיקיות במצב סמוי.
+24. type + name of original file.file type > new file name.file type - מעתיק  את הקובץ ומשנה לו שם.
+
+wildcard
+25. dir + *.file type - ממיין את כל הקבצים מהסוג שבחרנו.
+26. dir + note*.file type - ממיין את כל הקבצי שמתחילים בתו מסויים ומסתיימים בסוג קובץ שבחרנו.
+27. dir + note*note.file type - ממיין את כל הקבצי שמתחילים בתו מסויים ומסתיימים בתו מסוים ובסוג קובץ שבחרנו.
+28. * - הכל.
+29. dir + note*.file type>new file name.file type - ממיין את כל הקבצי שמתחילים בתו מסויים ומסתיימים בסוג קובץ שבחרנו וכל המידה מועבר קובץ אחר בשם שבחרנו.
+30. ? - הכל אבל רק תו אחד.
+31. dir + note?note*.*o - ממיין את כל הקבצי שמתחילים בתו מסויים ותו מסוים לא משנה והתו השלישי מסוג מסוים שבחרנו ואת כל הסיומות האפשריות.
