@@ -20,10 +20,10 @@ Working with files
 17. del + file name.file type - מוחק את המסמך
 18. move + file name.file type + c:\directory\o - מעביר את המסמך לתקייה שנבחר.
 19. type + file name.file type - מציג את תכולת המסמך.
-20. attrib +R+ file name.file type - המסמך במצב קריאה בלבד
-21. attrib -R+ file name.file type - ביטול מצב קריאה בלבד.
-22. attrib +h+ file name.file type - המסמך במצב סמוי.
-23. dir +/AH - בודק אם יש תיקיות במצב סמוי.
+20. attrib (+R)+ file name.file type - המסמך במצב קריאה בלבד
+21. attrib (-R)+ file name.file type - ביטול מצב קריאה בלבד.
+22. attrib (+h)+ file name.file type - המסמך במצב סמוי.
+23. dir +(/AH) - בודק אם יש תיקיות במצב סמוי.
 24. type + name of original file.file type > new file name.file type - מעתיק  את המסמך ומשנה לו שם.
 
 select
@@ -40,3 +40,4 @@ select
 35. notepad - דוגמא לתוכנית שאם נרשום אותה בcmd היא תפתח.
 36. tasklist - כאשר נרצה לראות את כל התהליכים שמתבצעים בזה הרגע המחשב נרשום את הפקודה.
 37. "tasklist | find file "name.exe - פקודת מיון שתרשום ותביא רק את התהליכים הספציפים האלה.
+38. "name of command | find file "name.exe - פקודת מיון שתרשום ותביא רק את  מה שאתה מחפש.
