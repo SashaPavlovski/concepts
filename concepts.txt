@@ -23,7 +23,7 @@ Working with files
 20. attrib +R+ file name.file type - הקובץ במצב קריאה בלבד
 21. attrib -R+ file name.file type - ביטול מצב קריאה בלבד.
 22. attrib +h+ file name.file type - הקובץ במצב סמוי.
-23. attrib +/AH - בודק אם יש תיקיות במצב סמוי.
+23. dir +/AH - בודק אם יש תיקיות במצב סמוי.
 24. type + name of original file.file type > new file name.file type - מעתיק  את הקובץ ומשנה לו שם.
 
 wildcard
