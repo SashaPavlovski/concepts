@@ -18,7 +18,7 @@ Working with files
 15. copy + file name+c:\directory - מעתיק את המסמך לתיקייה.
 16. copy + file name+c:\directory\new file name.file type - מעתיק את המסמך לתיקייה ומשנה לו שם.
 17. del + file name.file type - מוחק את המסמך
-18. move + file name.file type + c:\directory\o - מעביר את המסמך תיקייה אחורה.
+18. move + file name.file type + c:\directory\o - מעביר את המסמך לתקייה שנבחר.
 19. type + file name.file type - מציג את תכולת המסמך.
 20. attrib +R+ file name.file type - המסמך במצב קריאה בלבד
 21. attrib -R+ file name.file type - ביטול מצב קריאה בלבד.
