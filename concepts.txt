@@ -28,7 +28,7 @@ Working with files
 
 wildcard
 25. dir + *.file type - בורר את כל המסמכים מהסוג שבחרנו.
-26. dir + note*.file type - בורר את כל המסמכים שמתחילים בתו מסויים(note) ומסתיימים בסוג מסמך שבחרנו (.file type).
+26. dir + note*.file type - בורר את כל המסמכים שמתחילים בתו מסויים(note) ומסתיימים בסוג מסמך שבחרנו(.file type).
 27. dir + note*note.file type - בורר את כל המסמכים שמתחילים בתו מסויים(note) ומסתיימים בתו מסוים ובסוג מסמך שבחרנו (.file type).
 28. * - הכל.
 29. dir + note*.file type>new file name.file type - בורר את כל המסמכים שמתחילים בתו מסויים  ומסתיימים בסוג המסמך שבחרנו(.file type), וכל התוכן מועבר למסמך החדש בשם שבחרנו. (new file name.file type).
