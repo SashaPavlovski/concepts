@@ -14,27 +14,27 @@ Dos commands
 13. rmdir /s + name of directory - למחוק את התיקייה ומה שבתוכה.
 
 Working with files
-14. dir >file name.file type  - יצירת קובץ בספריה.
-15. copy + file name+c:\directory - מעתיק את הקובץ לתיקייה.
-16. copy + file name+c:\directory\new file name.file type - מעתיק את הקובת לתיקייה ומשנה לה שם.
-17. del + file name.file type - מוחק את הקובץ
-18. move + file name.file type + c:\directory\o - מעביר את הקובץ תיקייה אחורה.
-19. type + file name.file type - מציג את תכולת הקובץ.
-20. attrib +R+ file name.file type - הקובץ במצב קריאה בלבד
+14. dir >file name.file type  - יצירת מסמך בתקייה.
+15. copy + file name+c:\directory - מעתיק את המסמך לתיקייה.
+16. copy + file name+c:\directory\new file name.file type - מעתיק את המסמך לתיקייה ומשנה לו שם.
+17. del + file name.file type - מוחק את המסמך
+18. move + file name.file type + c:\directory\o - מעביר את המסמך תיקייה אחורה.
+19. type + file name.file type - מציג את תכולת המסמך.
+20. attrib +R+ file name.file type - המסמך במצב קריאה בלבד
 21. attrib -R+ file name.file type - ביטול מצב קריאה בלבד.
-22. attrib +h+ file name.file type - הקובץ במצב סמוי.
+22. attrib +h+ file name.file type - המסמך במצב סמוי.
 23. dir +/AH - בודק אם יש תיקיות במצב סמוי.
-24. type + name of original file.file type > new file name.file type - מעתיק  את הקובץ ומשנה לו שם.
+24. type + name of original file.file type > new file name.file type - מעתיק  את המסמך ומשנה לו שם.
 
 wildcard
-25. dir + *.file type - ממיין את כל הקבצים מהסוג שבחרנו.
-26. dir + note*.file type - ממיין את כל הקבצי שמתחילים בתו מסויים ומסתיימים בסוג קובץ שבחרנו.
-27. dir + note*note.file type - ממיין את כל הקבצי שמתחילים בתו מסויים ומסתיימים בתו מסוים ובסוג קובץ שבחרנו.
+25. dir + *.file type - בורר את כל המסמכים מהסוג שבחרנו.
+26. dir + note*.file type - בורר את כל המסמכים שמתחילים בתו מסויים (note) ומסתיימים בסוג מסמך שבחרנו (.file type).
+27. dir + note*note.file type - בורר את כל המסמכים שמתחילים בתו מסויים (note) ומסתיימים בתו מסוים ובסוג מסמך שבחרנו (.file type).
 28. * - הכל.
-29. dir + note*.file type>new file name.file type - ממיין את כל הקבצי שמתחילים בתו מסויים ומסתיימים בסוג קובץ שבחרנו וכל המידה מועבר קובץ אחר בשם שבחרנו.
+29. dir + note*.file type>new file name.file type - בורר את כל המסמכים שמתחילים בתו מסויים  ומסתיימים בסוג המסמך שבחרנו (.file type), וכל התוכן מועבר למסמך החדש בשם שבחרנו. (new file name.file type).
 30. ? - הכל אבל רק תו אחד.
-31. dir + note?note*.*o - ממיין את כל הקבצי שמתחילים בתו מסויים ותו מסוים לא משנה והתו השלישי מסוג מסוים שבחרנו ואת כל הסיומות האפשריות.
-32. file name.bat - כל הפקודות שרשומות בקובץ זה יקרו כאשר נרשום את השם של הקובץ בcmd.
+31. dir + note?note*.*31 - בורר את כל המסמכים שמתחילים בתו מסויים (note)  ותו מסוים לא משנה (?) והתו השלישי מסוג מסוים שבחרנו  (note) ואת כל הסיומות האפשריות (.*).
+32. file name.bat - כל הפקודות שרשומות במסמך זה יקרו כאשר נרשום את השם של הקובץ בcmd.
 33. echo - פקודה שמדפיסה את כל מה שנרשום אחריה.
 34. pause - פקודה שעוצר את רצף הפקודות.
 35. notepad - דוגמא לתוכנית שאם נרשום אותה בcmd היא תפתח.
