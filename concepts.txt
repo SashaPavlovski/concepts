@@ -26,7 +26,7 @@ Working with files
 23. dir +/AH - בודק אם יש תיקיות במצב סמוי.
 24. type + name of original file.file type > new file name.file type - מעתיק  את המסמך ומשנה לו שם.
 
-wildcard
+select
 25. dir + *.file type - בורר את כל המסמכים מהסוג שבחרנו.
 26. dir + note*.file type - בורר את כל המסמכים שמתחילים בתו מסויים(note) ומסתיימים בסוג מסמך שבחרנו(.file type).
 27. dir + note*note.file type - בורר את כל המסמכים שמתחילים בתו מסויים(note) ומסתיימים בתו מסוים ובסוג מסמך שבחרנו (.file type).
